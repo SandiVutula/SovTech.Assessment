@@ -1,0 +1,50 @@
+
+.main-content {
+    width: 700px; 
+    margin: 0 auto;
+    text-align: center;
+    padding: 40px 0px;
+}
+    
+.logo {
+    width: 20%;
+}
+
+.heading{
+    font-size: 25px;
+    font-weight: bold;
+}
+    
+.categories .category {
+    display: inherit;
+    padding: 4px;
+    border: 2px solid #8bc5ef;
+    margin: 0px 5px 10px 0px;
+    cursor: pointer;
+    border-radius: 10px;
+    background-color:  #8bc5ef;
+    font-weight: bold;
+}
+    
+.joke-wrapper {
+    padding: 10px 10px;
+    border: 2px solid #8bc5ef;
+    margin-bottom: 10px;
+}
+
+.joke-wrapper .joke {
+    display: flex;
+}
+
+.joke-wrapper .joke img{
+    width: 50px;
+    flex: 1;
+}
+
+.joke-wrapper .joke p{
+    flex: 10;
+    margin-left: 20px;
+    text-align: left;
+}
+    
+    

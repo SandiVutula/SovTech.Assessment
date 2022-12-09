@@ -1,0 +1,24 @@
+<div class="main-content">
+  <img src="../assets/img/sovtech_logo.png" alt="SovTech Logo" class="logo">
+
+  <div class="heading">
+    <p > SovTech - Chuck Norris Jokes</p>
+  </div>
+
+  <!-- Categories -->
+  <div class="categories">
+    <span 
+      class="category" 
+      *ngFor="let category of categories"
+      (click) = "displayJokeByCategory(category)">{{ category }}
+    </span>
+  </div>
+  
+  <!-- Random Jokes -->
+  <div class="joke-wrapper"*ngFor="let joke of jokes">
+    <div class="joke">
+      <img [src]="joke.icon_url" alt="Icon">
+      <p> {{ joke.value }} </p>
+    </div>
+  </div>
+</div>
